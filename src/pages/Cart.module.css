@@ -1,0 +1,13 @@
+.wrapper {
+    max-width: 950px;
+    margin: 0 auto !important;
+}
+
+.buy {
+    margin-top: 60px;
+}
+
+.price {
+    color: #1890FF !important;
+    margin-left: 10px;
+}

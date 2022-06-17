@@ -1,0 +1,25 @@
+.header {
+    padding: 25px 0;
+    margin-bottom: 40px;
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo:hover {
+    cursor: pointer;
+}
+
+.cart {
+    float: right;
+    padding: 10px 0 10px 10px;
+}
+
+.cart:hover {
+    cursor: pointer;
+}

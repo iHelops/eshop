@@ -1,0 +1,33 @@
+.item {
+    margin-bottom: 40px;
+}
+
+.image img {
+    width: 100%;
+    height: 110px;
+    object-fit: contain;
+}
+
+.icon {
+    font-size: 16px;
+    margin-top: 3px;
+}
+
+.icon:hover {
+    cursor: pointer;
+}
+
+.count {
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+.count-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.price h3{
+    margin-bottom: 0;
+    color: #1890FF !important;
+}
