@@ -7,8 +7,6 @@ import {
     PlusOutlined
 } from "@ant-design/icons";
 
-const {Text, Title} = Typography
-
 interface cartItemProps {
     id: number,
     image: string,
@@ -19,6 +17,8 @@ interface cartItemProps {
     minusItem?: ((id: number) => void),
     removeItem?: ((id: number) => void),
 }
+
+const {Text, Title} = Typography
 
 const CartItem: FC<cartItemProps> = ({id, image, price, title, count, removeItem, plusItem, minusItem}) => {
     const plusClick = () => {
